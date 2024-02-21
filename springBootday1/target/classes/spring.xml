@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+    <bean id="User" class="org.signify.User" scope="prototype">
+        <property name="userName" value="John" />
+        <property name="emailId" value="john@signify.com" />
+        <property name="phoneNumber" value="1234567890" />
+    </bean>
+</beans>
